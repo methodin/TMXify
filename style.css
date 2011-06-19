@@ -1,0 +1,21 @@
+body {font:11pt verdana}
+#wrapper {margin-left:150px;position:relative;}
+#toolbox {position:fixed;z-index:1005;top:0px;left:0px;width:150px;background:#ece9d8;border-left:1px solid #aca899;border-bottom:1px solid #aca899;height:100%}
+#toolbox-wrapper {padding:10px}
+#layers {width:100%;position:relative;z-index:1;height:150;background:white;margin-bottom:10px;border:1px solid #aaa;font-size:10pt;padding:2px;overflow-y:auto}
+#map {width:1px;height:1px;border:1px solid #ccc;background:#ddd}
+#tilesets {overflow-y:scroll;height:200px;background:white;padding:4px;border:1px solid #aaa;}
+#tilesets canvas {margin:1px 1px 0px 0px}
+#tileset-selectors {height:1px}
+#tileset-selectors div {position:absolute}
+#preview {width:0px;height:0px;display:none;position:absolute;top:-100px;left:-100px;opacity:0.5;z-index:100}
+canvas {;z-index:1}
+.toolbox-header {font-weight:bold;padding-bottom:5px}
+.toolbox-subheader {font-size:10pt;padding-bottom:5px}
+.layer {position:absolute;}
+.object {position:absolute;border:2px solid #888;margin:-2px}
+.ui-selected {background:#27e}
+.ui-selecting {background:#27e;opacity:0.2}
+#tilesets .ui-selected {opacity:0.5}
+#tilesets .ui-selecting {opacity:0.2}
+#map .ui-selected {opacity:0.5;border-color:blue !important}
